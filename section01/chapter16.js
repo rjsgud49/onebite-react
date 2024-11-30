@@ -4,11 +4,13 @@ const animal = {
     name: "나비",
     color: "black",
 };
+console.log(animal.name);
 
 animal.age = 2; //추가
 animal.name = "까망이"; //수정
 delete animal.color; //삭제
 
+console.log(animal.name);
 //2. 매서드
 //값이 함수인 프롬퍼티를 말함
 
